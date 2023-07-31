@@ -13,7 +13,7 @@
   }
   
   .logo span {
-    color: #f59f00;
+    color: #d31323;
   }
   
   .nav-list {
@@ -31,7 +31,7 @@
   }
   
   .nav-list button {
-    background-color: #f59f00;
+    background-color:#d31323;
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -42,6 +42,8 @@
   .search {
     display: flex;
     align-items: center;
+    border: solid black 1px;
+    border-radius: 5px;
   }
   
   .search input {
@@ -52,7 +54,7 @@
   }
   
   .search button {
-    background-color: #f59f00;
+    background-color: #d31323;
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -60,7 +62,7 @@
     cursor: pointer;
   }
   
-  /* Search results styles */
+ 
   .search-results {
     margin-top: 20px;
     display: flex;
